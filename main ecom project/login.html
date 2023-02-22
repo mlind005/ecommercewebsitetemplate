@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecom</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+
+
+            <div class="left">
+                <h1>Apni <span>Dukan</span></h1>
+                <p>EveryThing is Here</p>
+            </div>
+
+            <div class="center">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i id="menubar">Menu</i>
+            <div class="right">
+                <a href="login.html"><i class="fa fa-user"></i>Login</a>
+                <a href="register.html"><i class="fa fa-address-book"></i>Register</a>
+                <a href="cart.html"><i class="fa fa-shopping-cart"></a></i>
+            </div>
+        </div>
+
+        <!-- sidenav starts here  -->
+
+
+        <section id="sidenav">
+            <ul>
+                <li>
+                    <h2 style="color: white;">Menu</h2>
+                </li>
+                <li><a href="home.html">Home </a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </section>
+    </header>
+
+    <!-- sidenav Ends here  -->
+
+
+    <!-- Login starts Here  -->
+
+
+
+    <section class="login">
+        <form action="">
+            <h1>Login</h1>
+            <p>
+                Dont have account 
+                <a href="register.html">Register</a>
+                here
+            </p>
+
+            <label for="email">Email</label>
+            <input type="text" placeholder="Enter Email" name="email" required />
+
+            <label for="psw">Password</label>
+            <input type="password" placeholder="Enter Password" name="psw" required />
+
+            <label for="psw-repeat">Repeat Password</label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required />
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px" />
+                Remember me
+            </label>
+
+            
+
+            <div class="buttons">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Login</button>
+            </div>
+        </form>
+
+    </section>
+
+
+    <!-- login Ends Here  -->
+
+
+
+
+   
+
+
+    <footer>
+        <div class="left">
+            <h1>Apni <span>Dukan</span></h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus eos quae!</p>
+
+        </div>
+        <div class="middle">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-pinterest"></i>
+        </div>
+        <div class="right">
+            <p>Milind Ravikant Patil</p>
+            <p>@milind005rpatil</p>
+            <p>8160997745</p>
+        </div>
+    </footer>
+
+
+    <!-- footer ends here  -->
+
+</body>
+
+
+<script src="sidenav.js"></script>
+<script src="product.js"></script>
+
+
+
+
+
+<link rel="stylesheet" href="idx2.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 1200,
+            modifier: 1,
+            slideShadows: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+</script>
+
+</html>

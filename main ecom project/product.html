@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecom</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+</head>
+
+
+
+<style>
+    .product {
+        margin: 50px 100px;
+        display: flex;
+        /* justify-content: space-around; */
+    }
+
+    .left {
+        margin: 0px 80px;
+    }
+
+    .product .left img {
+        width: 360px;
+        height: 360px;
+        cursor: pointer;
+    }
+
+    .product .left .small {
+        display: flex;
+        /* width: 360px; */
+    }
+
+    .product .left .small img {
+        flex-basis: 25%;
+        width: 80px;
+        height: 120px;
+        margin: 5px;
+
+    }
+
+    .product .right h1 {
+        margin: 20px 0px;
+    }
+
+    .product .right select {
+        margin: 20px 0px;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .product .right input {
+        margin: 20px 0px;
+        width: 50px;
+        height: 40px;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .product .right button {
+        padding: 12px 30px;
+        color: white;
+        background-color: indianred;
+        font-size: 15px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    }
+
+    @media only screen and (max-width:769px) {
+        .product {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+</style>
+
+<!-- this js is for element small -->
+
+<body>
+    <header>
+        <div class="nav">
+
+
+            <div class="left">
+                <h1>Apni <span>Dukan</span></h1>
+                <p>EveryThing is Here</p>
+            </div>
+
+            <div class="center">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i id="menubar">Menu</i>
+
+            <div class="right">
+                <a href="login.html"><i class="fa fa-user"></i>Login</a>
+                <a href="register.html"><i class="fa fa-address-book"></i>Register</a>
+                <a href="cart.html"><i class="fa fa-shopping-cart"></a></i>
+            </div>
+        </div>
+
+        <!-- sidenav starts here  -->
+
+
+        <section id="sidenav">
+            <ul>
+                <li>
+                    <h2 style="color: white;">Menu</h2>
+                </li>
+                <li><a href="home.html">Home </a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </section>
+    </header>
+
+    <!-- sidenav Ends here  -->
+
+
+    <!-- cart starts Here  -->
+    <section class="product">
+        <div class="left">
+            <img src="./img/1.jpg" alt="" id="mainimg">
+            <div class="small">
+                <img src="./img/25.jpg" alt="" class="small-img">
+                <img src="./img/1.jpg" alt="" class="small-img">
+                <img src="./img/23.jpg" alt="" class="small-img">
+                <img src="./img/8.jpg" alt=" " class="small-img">
+            </div>
+        </div>
+        <div class="right">
+            <h6>Home /T-Shirt</h6>
+            <h1>Mens Fashionn Shirt</h1>
+            <h2>500$</h2>
+            <select>
+                <option>Select size</option>
+                <option>Xl</option>
+                <option>XXl</option>
+                <option>M</option>
+            </select>
+            <br>
+            <input type="number" value="1">
+            <button>Add to Cart</button>
+            <br>
+            <h4>Prrduct Details</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, amet non mollitia sint nemo, dolorum quam
+                omnis dicta blanditiis molestiae culpa consectetur dignissimos explicabo molestias accusamus nostrum?
+                Nostrum, non architecto aspernatur maiores facilis ipsam nulla? Voluptatum ut deserunt eos saepe tempora
+                aliquid ullam corporis debitis ratione nostrum fugit quisquam ducimus ab iure, facere obcaecati fugiat
+                esse perferendis aliquam? Aliquid sit voluptate pariatur assumenda obcaecati, ipsa aut minima soluta?
+                Impedit magnam expedita magni quisquam adipisci? Similique mollitia quos, pariatur laudantium, ex sint
+                minus expedita ad culpa, non in quis.</p>
+        </div>
+    </section>
+
+
+
+    <!-- cart Ends Here  -->
+
+
+
+
+
+
+
+    <footer>
+        <div class="left">
+            <h1>Apni <span>Dukan</span></h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus eos quae!</p>
+
+        </div>
+        <div class="middle">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-pinterest"></i>
+        </div>
+        <div class="right">
+            <p>Milind Ravikant Patil</p>
+            <p>@milind005rpatil</p>
+            <p>8160997745</p>
+        </div>
+    </footer>
+
+
+    <!-- footer ends here  -->
+
+</body>
+
+<script src="sidenav.js"></script>
+<script src="product.js"></script>
+
+
+
+
+
+<link rel="stylesheet" href="idx2.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 1200,
+            modifier: 1,
+            slideShadows: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+</script>
+
+</html>

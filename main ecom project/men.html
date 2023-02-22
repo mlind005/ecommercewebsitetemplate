@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecom</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+</head>
+
+<style>
+.pagination {
+  display: inline-block;
+  
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active){background-color: #ddd;}
+</style>
+    
+
+
+
+<body>
+    <header>
+        <div class="nav">
+
+
+            <div class="left">
+                <h1>Apni <span>Dukan</span></h1>
+                <p>EveryThing is Here</p>
+            </div>
+
+            <div class="center">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i id="menubar">Menu</i>
+
+            <div class="right">
+                <a href="login.html"><i class="fa fa-user"></i>Login</a>
+                <a href="register.html"><i class="fa fa-address-book"></i>Register</a>
+                <a href="cart.html"><i class="fa fa-shopping-cart"></a></i>
+            </div>
+        </div>
+
+<!-- sidenav starts here  -->
+
+
+<section id="sidenav">
+    <ul>
+        <li> <h2 style="color: white;">Menu</h2></li>
+        <li><a href="home.html">Home </a></li>
+        <li><a href="men.html">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</section>
+
+<!-- sidenav Ends here  -->
+
+
+
+        <!-- featured start -->
+        <section class="featured">
+            <div class="featured-text">
+                <p>New inspiration</p>
+                <h1> <span style="color: indianred;">Mens </span> Collection !</h1>
+                <p>Trending for <span style="color: indianred;"> men</span> and <span style="color: indianred;"> women</span></p>
+                <button>Shop Now</button>
+            </div>
+            <img src="./img/hero1.png" alt="" class="f-image" style="width: 15%; right: 15%">
+
+        </section>
+
+    </header>
+        <!-- featured End -->
+    <!-- new section start here of cat -->
+    <section class="cat">
+        <div>
+            <img src="./img/cat1.jpg" alt="">
+            <a href="#">
+                Mens Wear
+            </a>
+        </div>
+        <div>
+            <img src="./img/cat2.jpg" alt="">
+            <a href="#">
+                Accessories
+            </a>
+        </div>
+        <div>
+            <img src="./img/cat3.jpg" alt="">
+            <a href="#">
+                Women Wear
+            </a>
+        </div>
+
+    </section>
+    <!-- new section Ends here of cat -->
+
+    <!-- latest section starts here  -->
+
+    <section class="latest">
+        <div class="product-intro">
+            <h1>Men <span>Products</span></h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus eos quae!</p>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="./img/1.jpg" alt="" onclick="window.location.href='product.html'">
+                </div>
+                <h2>T shirt</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$500.00</p>
+                <a href="#"><button> Add to cart</button></a>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./img/2.jpg" alt="">
+                </div>
+                <h2>Shoes</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$200.00</p>
+                <a href="#"><button> Add to cart</button></a>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./img/3.jpg" alt="">
+                </div>
+                <h2>Bag</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$700.00</p>
+                <a href="#"><button> Add to cart</button></a>
+            </div>
+           
+           
+           
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="./img/4.jpg" alt="">
+                </div>
+                <h2>Shoes</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$200.00</p>
+                <a href="#"><button> Add to cart</button></a>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./img/5.jpg" alt="">
+                </div>
+                <h2>Hat</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$100.00</p>
+                <a href="#"><button> Add to cart</button></a>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./img/7.jpg" alt="">
+                </div>
+                <h2>Shoes</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$500.00</p>
+                <a href="#"><button> Add to cart</button></a>
+            </div>
+           
+           
+           
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="./img/21.jpg" alt="" >
+                    
+                </div>
+                <h2>Jacket</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$500.00</p>
+                <a href="#"><button> Add to cart</button></a>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./img/23.jpg" alt="">
+                </div>
+                <h2>Shoes</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$200.00</p>
+                <a href="#"><button> Add to cart</button></a>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./img/9.jpg" alt="">
+                </div>
+                <h2>Bag</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$700.00</p>
+                <a href="#"><button> Add to cart</button></a>
+            </div>
+           
+           
+           
+        </div>
+        
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            
+            <a href="#">&raquo;</a>
+          </div>
+    </section>
+
+
+    <!-- latest section starts ends here  -->
+
+
+    
+
+
+    <!-- populer products section  -->
+    <section class="popular">
+        <div class="product-intro">
+            <h1>Featured <span>Products</span></h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus eos quae!</p>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="./img/10.jpg" alt="">
+                </div>
+                <h2>T shirt</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$500.00</p>
+                <a href="#"><button> Add to cart</button></a>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./img/17.jpg" alt="">
+                </div>
+                <h2>Shoes</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$200.00</p>
+                <a href="#"><button> Add to cart</button></a>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./img/11.jpg" alt="">
+                </div>
+                <h2>Bag</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$700.00</p>
+                <a href="#"><button> Add to cart</button></a>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./img/21.jpg" alt="">
+                </div>
+                <h2>Bag</h2>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$700.00</p>
+                <a href="#"><button> Add to cart</button></a>
+            </div>
+        
+        </div>
+    </section>
+    <!-- populer products section end  -->
+
+    <!-- footer starts here  -->
+
+    <footer>
+        <div class="left">
+            <h1>Apni <span>Dukan</span></h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus eos quae!</p>
+
+        </div>
+        <div class="middle">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-pinterest"></i>
+        </div>
+        <div class="right">
+            <p>Milind Ravikant Patil</p>
+            <p>@milind005rpatil</p>
+            <p>8160997745</p>
+        </div>
+    </footer>
+
+
+    <!-- footer ends here  -->
+    
+</body>
+
+<script src="sidenav.js"></script>
+<script src="product.js"></script>
+
+
+
+
+
+<link rel="stylesheet" href="idx2.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 1200,
+            modifier: 1,
+            slideShadows: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+</script>
+
+</html>
